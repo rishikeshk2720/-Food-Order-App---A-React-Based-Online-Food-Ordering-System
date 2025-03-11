@@ -1,12 +1,17 @@
-# React + Vite
+# 🍔 Food Order App - A React-Based Online Food Ordering System
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## 📌 Overview
+The **Food Order App** is a **React.js**-powered online food ordering platform that allows users to browse meals, manage their cart, and place orders seamlessly. The application integrates real-time API fetching, state management, and a responsive UI for an enhanced user experience.
 
-Currently, two official plugins are available:
+## 🚀 Features
+- **🔹 Dynamic Meal Listing** – Fetches **20+ meal options** from a backend API with real-time updates.
+- **🛒 Cart Management** – Add, update, and remove items from the cart, with live total price calculations.
+- **✅ Secure Checkout** – Implements form validation and order processing with JSON Server.
+- **🔄 Custom `useHttps` Hook** – Optimized API requests, reducing redundant calls and improving performance.
+- **🎨 Modular UI Components** – Includes `Cart`, `MealItem`, `CheckOut`, `Button`, `Input`, and `Modal` for reusability.
+- **🛠 Backend Integration** – Uses `json-server` to simulate a real-world API, handling order storage and retrieval.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
-
-## Expanding the ESLint configuration
-
-If you are developing a production application, we recommend using TypeScript and enable type-aware lint rules. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+  ## 🛠 Tech Stack
+- **Frontend:** React.js, Context API, Fetch API, CSS Modules, Tailwind CSS
+- **State Management:** useState, useContext, useReducer
+- **Backend:** JSON Server (Mock API)
